@@ -1,5 +1,11 @@
-# color-scope-syntax theme
+# Clojure Color Scope Syntax Theme
 
-A short description of your theme.
+Theme offering various background colors according to the scope of a Clojure expression
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+This theme was created to facilitate the learning process of Clojure and ClojureScript.
+
+![A screenshot of Clojure color scope theme](screenshots/screen1.png)
+
+![Another screenshot of your theme](screenshots/screen2.png)
+
+![Another screenshot of your theme](screenshots/screen3.png)

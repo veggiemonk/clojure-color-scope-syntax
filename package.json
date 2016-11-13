@@ -1,13 +1,17 @@
 {
-  "name": "color-scope-syntax",
+  "name": "clojure-color-scope-syntax",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "A short description of your syntax theme",
+  "description": "Theme offering various background colors according to the scope of a Clojure expression",
   "keywords": [
     "syntax",
+    "clojure",
+    "clojurescript",
+    "scope",
+    "function",
     "theme"
   ],
-  "repository": "https://github.com/veggiemonk/color-scope-syntax",
+  "repository": "https://github.com/veggiemonk/clojure-color-scope-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

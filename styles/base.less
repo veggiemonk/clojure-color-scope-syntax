@@ -35,7 +35,7 @@ atom-text-editor, :host {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @light-gray;
+    color: @gray;
   }
 
   .invisible {
@@ -330,68 +330,29 @@ atom-text-editor .search-results .marker.current-result .region,
   @green1: #c8fad3;
   @blue1: #cce6fa;
 
-
   .meta.expression  {
     color: @pink;
-    background-color: @red1;
-    .meta.expression {
-      background-color: @orange1;
-      .meta.expression {
-        background-color: @yellow1;
-        .meta.expression {
-          background-color: @green1;
-          .meta.expression {
-            background-color: @blue1;
-            .meta.expression {
-              background-color: @red1;
-              .meta.expression {
-                background-color: @orange1;
-                .meta.expression {
-                  background-color: @yellow1;
-                  .meta.expression {
-                    background-color: @green1;
-                    .meta.expression {
-                      background-color: @blue1;
-                      .meta.expression {
-                        background-color: @red1;
-                        .meta.expression {
-                          background-color: @orange1;
-                          .meta.expression {
-                            background-color: @yellow1;
-                            .meta.expression {
-                              background-color: @green1;
-                              .meta.expression {
-                                background-color: @blue1;
-                                .meta.expression {
-                                  background-color: @red1;
-                                  .meta.expression {
-                                    background-color: @orange1;
-                                    .meta.expression {
-                                      background-color: @yellow1;
-                                      .meta.expression {
-                                        background-color: @green1;
-                                        .meta.expression {
-                                          background-color: @blue1;
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+    background-color: @orange1;
+    .meta.expression  { background-color: @blue1;
+      .meta.expression { background-color: @yellow1;
+        .meta.expression { background-color: @red1;
+          .meta.expression { background-color: @green1;
+            .meta.expression { background-color: @orange1;
+              .meta.expression  { background-color: @blue1;
+                .meta.expression { background-color: @yellow1;
+                  .meta.expression { background-color: @red1;
+                    .meta.expression { background-color: @green1;
+                      .meta.expression { background-color: @orange1;
+                        .meta.expression  { background-color: @blue1;
+                          .meta.expression { background-color: @yellow1;
+                            .meta.expression { background-color: @red1;
+                              .meta.expression { background-color: @green1;
+                                .meta.expression { background-color: @orange1;
+                                  .meta.expression  { background-color: @blue1;
+                                    .meta.expression { background-color: @yellow1;
+                                      .meta.expression { background-color: @red1;
+                                        .meta.expression { background-color: @green1;
+                                        }}}}}}}}}}}}}}}}}}}}
 
   .meta.definition.global > .string.quoted.double {
     background-color:  @green1;

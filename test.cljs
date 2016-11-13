@@ -30,14 +30,14 @@
         (>= c 2) (assoc :middle middle)))))
 
 ; dsfsdfsd
-(defn add-contact [data owner]
+(defn  add-contact [data owner]
   (let [new-contact (-> (om/get-node owner "new-contact")
                         .-value
                         parse-contact)]
     (when new-contact
       (om/transact! data :contacts #(conj % new-contact)))))
 
-;
+;few this is a nice comment
 (defn middle-name [{:keys [middle middle-initial]}]
   (cond
     middle (str " " middle)

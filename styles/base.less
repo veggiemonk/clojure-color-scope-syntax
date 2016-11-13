@@ -1,7 +1,7 @@
 @import "syntax-variables";
 
 atom-text-editor, :host {
-  background-color: @syntax-background-color;
+  background-color: @base3;
   color: @syntax-text-color;
 
   .wrap-guide {
@@ -294,30 +294,85 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 }
 
-.source {
+.source.clojure {
+  background-color: @gray;
+  .meta {
+    color: @dark-gray;
+  }
+  .punctuation {
+    color: @dark-gray;
+  }
+  .entity {
+    color: @orange;
+  }
+  .symbol {
+    color: @blue;
+  }
+  .keyword {
+    color: @red;
+    font-weight: bold;
+  }
   .leading-whitespace {
-    background-color: @dark-gray;
+    background-color: @base3;
+  }
+  .control, .storage {
+    color: @pink;
+    font-weight: bold;
+  }
+  .string.quoted {
+    color: @violet;
   }
   .meta.expression {
-    background-color: #ffb3ba;
+    color: @pink;
+    background-color: #f5c0c5;
     .meta.expression {
       background-color: #ffdfba;
       .meta.expression {
-        background-color: #ffffba;
+        background-color: #f9f9cc;
         .meta.expression {
-          background-color: #baffc9;
+          background-color: #c8fad3;
           .meta.expression {
-            background-color: #bae1ff;
+            background-color: #cce6fa;
             .meta.expression {
-              background-color: #ffb3ba;
+              background-color: #f5c0c5;
               .meta.expression {
                 background-color: #ffdfba;
                 .meta.expression {
-                  background-color: #ffffba;
+                  background-color: #f9f9cc;
                   .meta.expression {
-                    background-color: #baffc9;
+                    background-color: #c8fad3;
                     .meta.expression {
-                      background-color: #bae1ff;
+                      background-color: #cce6fa;
+                      .meta.expression {
+                        background-color: #f5c0c5;
+                        .meta.expression {
+                          background-color: #ffdfba;
+                          .meta.expression {
+                            background-color: #f9f9cc;
+                            .meta.expression {
+                              background-color: #c8fad3;
+                              .meta.expression {
+                                background-color: #cce6fa;
+                                .meta.expression {
+                                  background-color: #f5c0c5;
+                                  .meta.expression {
+                                    background-color: #ffdfba;
+                                    .meta.expression {
+                                      background-color: #f9f9cc;
+                                      .meta.expression {
+                                        background-color: #c8fad3;
+                                        .meta.expression {
+                                          background-color: #cce6fa;
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }

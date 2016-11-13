@@ -29,7 +29,7 @@
         (== c 1) (assoc :middle-initial middle)
         (>= c 2) (assoc :middle middle)))))
 
-;
+; dsfsdfsd
 (defn add-contact [data owner]
   (let [new-contact (-> (om/get-node owner "new-contact")
                         .-value

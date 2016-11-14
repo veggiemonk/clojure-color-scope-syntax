@@ -4,8 +4,8 @@ Theme offering various background colors according to the scope of a Clojure exp
 
 This theme was created to facilitate the learning process of Clojure and ClojureScript.
 
-![A screenshot of Clojure color scope theme](screenshots/screen1.png)
+![A screenshot of Clojure color scope theme](http://i.imgur.com/LEilNt1.png)
 
-![Another screenshot of your theme](screenshots/screen2.png)
+![Another screenshot of your theme](http://i.imgur.com/lMyNjtP.png)
 
-![Another screenshot of your theme](screenshots/screen3.png)
+![Another screenshot of your theme](http://i.imgur.com/f0QZG1i.png)

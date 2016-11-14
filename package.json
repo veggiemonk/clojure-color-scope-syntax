@@ -1,7 +1,7 @@
 {
   "name": "clojure-color-scope-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Theme offering various background colors according to the scope of a Clojure expression",
   "keywords": [
     "syntax",
